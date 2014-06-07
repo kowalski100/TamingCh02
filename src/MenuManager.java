@@ -5,7 +5,7 @@ import java.awt.event.*;
 
 public class MenuManager extends JMenuBar{
 	JMenu file,edit;
-	JMenuItem f_new,f_exit;
+	JMenuItem f_new,f_exit; 
 	public MenuManager (){
 		file = new JMenu("File");
 		file.setMnemonic('F');
